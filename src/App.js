@@ -1,13 +1,14 @@
 
-import './App.css';
-import ImgComponent from './components/ImgComponent/ImgComponent';
+import './App.scss';
+import Counter from './components/Homework3/Counter';
+import NameList from './components/Homework3/NameList';
 
 function App() {
   return (
-    <>
-      <ImgComponent/>
-      <p>lorem sadadsfdfsdasfffc</p>
-    </>
+    <div className='main'>
+      <NameList/>
+      <Counter/>
+    </div>
   );
 }
 
