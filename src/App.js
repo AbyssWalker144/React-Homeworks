@@ -1,13 +1,10 @@
-
-import './App.css';
-import ImgComponent from './components/ImgComponent/ImgComponent';
+import Homework2 from './components/Homework2/Homework2';
 
 function App() {
   return (
-    <>
-      <ImgComponent/>
-      <p>lorem sadadsfdfsdasfffc</p>
-    </>
+    <div>
+      <Homework2 usefulMessage="is the best homework"/>
+    </div>
   );
 }
 
