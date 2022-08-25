@@ -1,13 +1,9 @@
-
-import './App.scss';
-import Counter from './components/Homework3/Counter';
-import NameList from './components/Homework3/NameList';
+import Homework2 from './components/Homework2/Homework2';
 
 function App() {
   return (
-    <div className='main'>
-      <NameList/>
-      <Counter/>
+    <div>
+      <Homework2 usefulMessage="is the best homework"/>
     </div>
   );
 }
