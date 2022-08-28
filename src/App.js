@@ -1,13 +1,11 @@
 
 import './App.scss';
-import Counter from './components/Homework3/Counter';
-import NameList from './components/Homework3/NameList';
+import Showhide2 from './components/Homework4/redux-store/Showhide2';
 
 function App() {
   return (
     <div className='main'>
-      <NameList/>
-      <Counter/>
+      <Showhide2/>
     </div>
   );
 }
